@@ -11,7 +11,7 @@ from stable_diffusion_jax import (
     InferenceState,
     PNDMScheduler,
     StableDiffusionPipeline,
-    UNet2D
+    UNet2D,
     StableDiffusionSafetyCheckerModel,
 )
 from stable_diffusion_jax.convert_diffusers_to_jax import convert_diffusers_to_jax
